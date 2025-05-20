@@ -1,0 +1,9 @@
+scan:
+  include:
+    - requirements.txt
+    - app.py
+  exclude:
+    - tests/
+notifications:
+  email:
+    - simon@aikido.dev
